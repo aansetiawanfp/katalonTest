@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>POSTregisterUser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>18f8c9f6-56b9-46fd-aa89-c52071e0e837</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>3a2ae38d-c1af-4ddc-aecc-879dc24481b1</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/registerUserData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>3a2ae38d-c1af-4ddc-aecc-879dc24481b1</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>name</value>
+      <variableId>d56641ad-af84-4882-b9c3-3df546a63c47</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>3a2ae38d-c1af-4ddc-aecc-879dc24481b1</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>email</value>
+      <variableId>b4b32b78-7b3f-48c4-a77d-97da578a006a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('registerUserData').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>d56641ad-af84-4882-b9c3-3df546a63c47</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('registerUserData').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>b4b32b78-7b3f-48c4-a77d-97da578a006a</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

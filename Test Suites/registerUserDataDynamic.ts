@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>registerUserDataDynamic</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>6bc3db52-c515-47fe-874d-47809e712044</testSuiteGuid>
+   <testCaseLink>
+      <guid>b0fd497c-cedc-4bc3-909c-a4d146d7c3c3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>'jkt@example.com'</defaultValue>
+         <description></description>
+         <id>b4b32b78-7b3f-48c4-a77d-97da578a006a</id>
+         <masked>false</masked>
+         <name>email</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/POSTregisterUser</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0ab369d6-be16-489c-97b1-a6b19b932363</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/registerUserData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>0ab369d6-be16-489c-97b1-a6b19b932363</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>d56641ad-af84-4882-b9c3-3df546a63c47</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0ab369d6-be16-489c-97b1-a6b19b932363</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>b4b32b78-7b3f-48c4-a77d-97da578a006a</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
